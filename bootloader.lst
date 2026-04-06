@@ -1,0 +1,10 @@
+pxe detect
+configfile
+default 0
+timeout 0
+
+title BOOTLoader ...
+       kernel /loader/vmlinuz loglevel=3  vga=0x37F
+       initrd /loader/core.gz
+	
+

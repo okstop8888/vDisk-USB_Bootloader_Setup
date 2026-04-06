@@ -1,0 +1,9 @@
+# 日志与本地运行残留
+bin/log/*.log
+Thumbs.db
+Desktop.ini
+
+# 编辑器与系统
+.DS_Store
+*.swp
+*.tmp
